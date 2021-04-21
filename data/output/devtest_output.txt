@@ -1,0 +1,68 @@
+Number of positive tweets:  994
+Number of negative tweets:  325
+Number of neutral tweets:  681
+Number of tweets:  2000
+Positive class ratio:  0.497
+Negative class ratio:  0.1625
+Neutral class ratio:  0.3405
+Naive Bayes Model Accuracy =  0.4775
+Naive Bayes Model F1 Score =  0.27490024554941683
+Logistic Regression Model Accuracy =  0.5175
+Logistic Regression Model F1 Score =  0.3871848656119193
+Forest Model Accuracy =  0.5125
+Forest Model F1 Score =  0.38743624609068134
+SVM Model Accuracy =  0.4925
+SVM Model F1 Score =  0.43440386951837334
+Logistic Regression Model Accuracy Balanced =  0.51
+Logistic Regression Model F1 Score Balanced =  0.46843644933491974
+SVM Model Accuracy Balanced =  0.49
+SVM Model F1 Score Balanced =  0.43240945026659316
+Forest Model Accuracy Balanced =  0.53
+Forest Model F1 Score Balanced =  0.42629139486251133
+p-value comparing test set performance of linear regression vs. linear regression balanced =  2.0120504809324765e-30
+p-value comparing test set performance of support vector machine vs. support vector machine balanced =  0.3179165706461153
+p-value comparing test set performance of forest model vs. forest model balanced =  9.02608694620803e-13
+p-value comparing test set performance of forest model vs. linear regression model =  0.45365559592960647
+p-value comparing test set performance of forest model vs. support vector machine =  1.9833993292579442e-10
+p-value comparing test set performance of linear regression vs. support vector machine =  2.988636343982888e-14
+linear regression confusion matrix 
+ [[  4  33  28]
+ [  4  54  90]
+ [  1  37 149]]
+support vector machine confusion matrix 
+ [[ 15  30  20]
+ [ 16  64  68]
+ [ 16  54 117]]
+random forest confusion matrix 
+ [[  5  29  31]
+ [  5  50  93]
+ [  2  35 150]]
+ 
+  [[0.01   0.0825 0.07  ]
+ [0.01   0.135  0.225 ]
+ [0.0025 0.0925 0.3725]]
+support vector machine confusion matrix 
+ [[0.0375 0.075  0.05  ]
+ [0.04   0.16   0.17  ]
+ [0.04   0.135  0.2925]]
+random forest confusion matrix 
+ [[0.0125 0.0625 0.0875]
+ [0.0125 0.12   0.2375]
+ [0.0075 0.085  0.375 ]]
+ 
+ 
+ 
+ 
+ 
+may             393
+tomorrow        314
+day             261
+2               223
+th              217
+               ... 
+institute         1
+smoke-signal      1
+jamming           1
+enterprise        1
+speed             1
+Length: 6103, dtype: int64

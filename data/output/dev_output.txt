@@ -1,0 +1,39 @@
+Number of positive tweets:  843
+Number of negative tweets:  391
+Number of neutral tweets:  765
+Number of tweets:  1999
+Positive class ratio:  0.42171085542771386
+Negative class ratio:  0.19559779889944973
+Neutral class ratio:  0.3826913456728364
+Naive Bayes Model Accuracy =  0.4975
+Naive Bayes Model F1 Score =  0.37574015091597013
+Logistic Regression Model Accuracy =  0.5225
+Logistic Regression Model F1 Score =  0.47323313498902014
+Forest Model Accuracy =  0.5125
+Forest Model F1 Score =  0.459701055734842
+SVM Model Accuracy =  0.4775
+SVM Model F1 Score =  0.45197288792060036
+Logistic Regression Model Accuracy Balanced =  0.5
+Logistic Regression Model F1 Score Balanced =  0.48861810797976385
+SVM Model Accuracy Balanced =  0.4775
+SVM Model F1 Score Balanced =  0.4539357772094345
+Forest Model Accuracy Balanced =  0.4975
+Forest Model F1 Score Balanced =  0.44843265028890444
+p-value comparing test set performance of linear regression vs. linear regression balanced =  7.108310501626698e-20
+p-value comparing test set performance of support vector machine vs. support vector machine balanced =  0.41489804548747033
+p-value comparing test set performance of forest model vs. forest model balanced =  0.006905932859156422
+p-value comparing test set performance of forest model vs. linear regression model =  0.03686092644297594
+p-value comparing test set performance of forest model vs. support vector machine =  3.2902213474259985e-07
+p-value comparing test set performance of linear regression vs. support vector machine =  1.099765318730887e-05
+linear regression confusion matrix 
+ [[ 17  46  14]
+ [ 10  79  76]
+ [  3  42 113]]
+support vector machine confusion matrix 
+ [[25 35 17]
+ [26 70 69]
+ [10 52 96]]
+random forest confusion matrix 
+ [[ 19  45  13]
+ [ 15  59  91]
+ [  6  25 127]]

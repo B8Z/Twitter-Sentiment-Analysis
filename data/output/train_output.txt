@@ -1,0 +1,67 @@
+Number of positive tweets:  3094
+Number of negative tweets:  863
+Number of neutral tweets:  2043
+Number of tweets:  6000
+Positive class ratio:  0.5156666666666667
+Negative class ratio:  0.14383333333333334
+Neutral class ratio:  0.3405
+Naive Bayes Model Accuracy =  0.55
+Naive Bayes Model F1 Score =  0.3264065923175378
+Logistic Regression Model Accuracy =  0.5741666666666667
+Logistic Regression Model F1 Score =  0.44463762250605265
+Forest Model Accuracy =  0.585
+Forest Model F1 Score =  0.42609100151285845
+SVM Model Accuracy =  0.5341666666666667
+SVM Model F1 Score =  0.4785294523035786
+Logistic Regression Model Accuracy Balanced =  0.5816666666666667
+Logistic Regression Model F1 Score Balanced =  0.5423177386480983
+SVM Model Accuracy Balanced =  0.53
+SVM Model F1 Score Balanced =  0.4764578714833945
+Forest Model Accuracy Balanced =  0.5716666666666667
+Forest Model F1 Score Balanced =  0.4637459344889967
+p-value comparing test set performance of linear regression vs. linear regression balanced =  6.223023477665595e-69
+p-value comparing test set performance of support vector machine vs. support vector machine balanced =  0.8084803266620182
+p-value comparing test set performance of forest model vs. forest model balanced =  2.3326044921146033e-31
+p-value comparing test set performance of forest model vs. linear regression model =  2.7558746257008207e-05
+p-value comparing test set performance of forest model vs. support vector machine =  7.821626735186453e-50
+p-value comparing test set performance of linear regression vs. support vector machine =  1.8775435486338297e-38
+linear regression confusion matrix 
+ [[ 21  91  69]
+ [  9 163 244]
+ [  1  97 505]]
+support vector machine confusion matrix 
+ [[ 54  74  53]
+ [ 44 188 184]
+ [ 26 183 394]]
+random forest confusion matrix 
+ [[ 14  85  82]
+ [  8 146 262]
+ [  1  60 542]]
+ 
+ linear regression confusion matrix 
+ [[0.0175     0.07583333 0.0575    ]
+ [0.0075     0.13583333 0.20333333]
+ [0.00083333 0.08083333 0.42083333]]
+support vector machine confusion matrix 
+ [[0.045      0.06166667 0.04416667]
+ [0.03666667 0.15666667 0.15333333]
+ [0.02166667 0.1525     0.32833333]]
+random forest confusion matrix 
+ [[0.00833333 0.07666667 0.06583333]
+ [0.00666667 0.12083333 0.21916667]
+ [0.         0.05416667 0.44833333]]
+ 
+ 
+may                       1093
+tomorrow                   873
+th                         763
+day                        547
+1                          529
+                          ... 
+accussing                    1
+premiums                     1
+http://t.co/05ip6fizy9       1
+http://t.co/ovos2a77yf       1
+calculator                   1
+Length: 13528, dtype: int64
+

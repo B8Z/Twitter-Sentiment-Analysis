@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfaa9075-50b5-447e-bb91-28da4fc14e87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyzeTweets.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyzeTweets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/subtasktest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/subtask.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractTweets.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractTweets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/output/dev_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/output/devtest_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/output/test_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/output/train_output.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +32,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adam\PycharmProjects\Twitter_Sentiment_Analysis\data\output" />
       <recent name="C:\Users\Adam\PycharmProjects\Twitter_Sentiment_Analysis" />
       <recent name="C:\Users\Adam\PycharmProjects\Twitter_Sentiment_Analysis\data" />
       <recent name="C:\Users\Adam\PycharmProjects\Twitter_Sentiment_Analysis\data\2017_English_final\DOWNLOAD\Subtask_A\train" />
