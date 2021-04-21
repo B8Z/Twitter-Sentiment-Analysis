@@ -20,8 +20,8 @@ def preprocess(s, lowercase=False):
 
 def main():
     data = {
-        'train': constants.DATA_DIR + constants.TRAIN,
-        'test': constants.DATA_DIR + constants.TEST,
+        'subtask': constants.DATA_DIR + constants.TRAIN,
+        'subtasktest': constants.DATA_DIR + constants.TEST,
         'dev': constants.DATA_DIR + constants.DEV,
         'devtest': constants.DATA_DIR + constants.DEVTEST,
         }
@@ -34,9 +34,7 @@ def main():
         with open(data[dataset], 'r') as dataset_f:
             output_data = []
             for line in dataset_f:
-                #print(line.split('\t'))
                 info = line.strip().split('\t')
-                # print(info)
                 id, label, text = info[0], info[1], ' '.join(info[2:])
                 if(label == 'positive'):
                     label = 2
